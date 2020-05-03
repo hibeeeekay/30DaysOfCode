@@ -5,7 +5,7 @@ ul,li{ display:inline; ; margin-right:4em; item-align:center;}
 
 li:before{content:'';}
 
-li:after{content:"|"; item-align:center;margin-left:100px;color:red;}
+li:after{content:"|"; item-align:center;margin-left:100px; color:red;}
 
 li:last-child:after{content:'';}
 
@@ -24,10 +24,6 @@ h2{ color:black; margin-top:30px; text-align:center;font-family:Cursive;}
 
 a{text-decoration:none;}
 
-.home:hover{color:red;}
-
-.about:hover{color:red;}
-
 .top{ background-color:white; }
 
 .main{ background-color:lavender; }
@@ -35,7 +31,8 @@ a{text-decoration:none;}
 footer{ position:absolute; background-color:darkgrey; width:100%; text-align:center; }
 
 @media screen and (max-width:480px){ html{ font-size: 16px; } body{ width: 100%; height: auto; }
- footer{ position:absolute; background-color:darkgrey; width:100%; text-align:center; bottom:0px; right:0px; left:0px;} ul,li{display:inline; ; margin-right:1em; }li:after{content:"|"; item-align:center;margin-left:10px;}}
+ footer{ position:absolute; background-color:darkgrey; width:100%; text-align:center; bottom:0px; right:0px; left:0px;} ul,li{display:inline; ; margin-right:1em; }li:after{content:"|"; item-align:center;margin-left:10px;} quote{ color:black; margin-top:10px; font-size:14px; text-align:center;  
+ font-family:Monospace;font-style:italic;}}
 
 @media screen and (min-width:680px){ html{ font-size: 20px; } body{ width: 100%; height: auto;}
 footer{ position:fixed; background-color:darkgrey; width:100%; text-align:center; bottom:0px; right:0px; left:0px;}}
