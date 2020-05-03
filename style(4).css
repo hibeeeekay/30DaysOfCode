@@ -5,7 +5,7 @@ ul,li{ display:inline; ; margin-right:4em; item-align:center;}
 
 li:before{content:'';}
 
-li:after{content:"|"; item-align:center;margin-left:100px;}
+li:after{content:"|"; item-align:center;margin-left:100px;color:red;}
 
 li:last-child:after{content:'';}
 
