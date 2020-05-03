@@ -1,4 +1,4 @@
-body{  display:grid;background-color: white; height:100%; width:100%; background-color:#f2f2f2;}
+body{  display:grid;background-color: white; height:100%; width:100%; background-color:#f2f2f2; overflow-x:hidden;}
 
 
 ul,li{ display:inline; ; margin-right:4em; item-align:center;}
